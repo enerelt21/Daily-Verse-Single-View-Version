@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		532FC494229F383500834A60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC493229F383500834A60 /* AppDelegate.m */; };
+		532FC49C229F383500834A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 532FC49B229F383500834A60 /* Assets.xcassets */; };
+		532FC49F229F383500834A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532FC49D229F383500834A60 /* LaunchScreen.storyboard */; };
+		532FC4A2229F383500834A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC4A1229F383500834A60 /* main.m */; };
+		532FC4AC229F383500834A60 /* iMessage_Extension_Single_Page_VersionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC4AB229F383500834A60 /* iMessage_Extension_Single_Page_VersionTests.m */; };
+		532FC4B7229F383500834A60 /* iMessage_Extension_Single_Page_VersionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC4B6229F383500834A60 /* iMessage_Extension_Single_Page_VersionUITests.m */; };
+		532FC4C622A023BE00834A60 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC4C522A023BE00834A60 /* CollectionViewController.m */; };
+		532FC4C922A07E9B00834A60 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 532FC4C822A07E9B00834A60 /* CollectionViewCell.m */; };
+		532FC4D022A18B9300834A60 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 532FC4CF22A18B9300834A60 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		532FC4A8229F383500834A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532FC487229F383500834A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532FC48E229F383500834A60;
+			remoteInfo = "iMessage Extension Single Page Version";
+		};
+		532FC4B3229F383500834A60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 532FC487229F383500834A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 532FC48E229F383500834A60;
+			remoteInfo = "iMessage Extension Single Page Version";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		532FC48F229F383500834A60 /* iMessage Extension Single Page Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iMessage Extension Single Page Version.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		532FC492229F383500834A60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		532FC493229F383500834A60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		532FC49B229F383500834A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		532FC49E229F383500834A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		532FC4A0229F383500834A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532FC4A1229F383500834A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		532FC4A7229F383500834A60 /* iMessage Extension Single Page VersionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iMessage Extension Single Page VersionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		532FC4AB229F383500834A60 /* iMessage_Extension_Single_Page_VersionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMessage_Extension_Single_Page_VersionTests.m; sourceTree = "<group>"; };
+		532FC4AD229F383500834A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532FC4B2229F383500834A60 /* iMessage Extension Single Page VersionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iMessage Extension Single Page VersionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		532FC4B6229F383500834A60 /* iMessage_Extension_Single_Page_VersionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMessage_Extension_Single_Page_VersionUITests.m; sourceTree = "<group>"; };
+		532FC4B8229F383500834A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		532FC4C422A023BE00834A60 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		532FC4C522A023BE00834A60 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		532FC4C722A07E9B00834A60 /* CollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		532FC4C822A07E9B00834A60 /* CollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		532FC4CF22A18B9300834A60 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		532FC48C229F383500834A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4A4229F383500834A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4AF229F383500834A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		532FC486229F383500834A60 = {
+			isa = PBXGroup;
+			children = (
+				532FC491229F383500834A60 /* iMessage Extension Single Page Version */,
+				532FC4AA229F383500834A60 /* iMessage Extension Single Page VersionTests */,
+				532FC4B5229F383500834A60 /* iMessage Extension Single Page VersionUITests */,
+				532FC490229F383500834A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		532FC490229F383500834A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				532FC48F229F383500834A60 /* iMessage Extension Single Page Version.app */,
+				532FC4A7229F383500834A60 /* iMessage Extension Single Page VersionTests.xctest */,
+				532FC4B2229F383500834A60 /* iMessage Extension Single Page VersionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		532FC491229F383500834A60 /* iMessage Extension Single Page Version */ = {
+			isa = PBXGroup;
+			children = (
+				532FC492229F383500834A60 /* AppDelegate.h */,
+				532FC493229F383500834A60 /* AppDelegate.m */,
+				532FC4C422A023BE00834A60 /* CollectionViewController.h */,
+				532FC4C522A023BE00834A60 /* CollectionViewController.m */,
+				532FC4C722A07E9B00834A60 /* CollectionViewCell.h */,
+				532FC4C822A07E9B00834A60 /* CollectionViewCell.m */,
+				532FC4CF22A18B9300834A60 /* MainStoryboard.storyboard */,
+				532FC49B229F383500834A60 /* Assets.xcassets */,
+				532FC49D229F383500834A60 /* LaunchScreen.storyboard */,
+				532FC4A0229F383500834A60 /* Info.plist */,
+				532FC4A1229F383500834A60 /* main.m */,
+			);
+			path = "iMessage Extension Single Page Version";
+			sourceTree = "<group>";
+		};
+		532FC4AA229F383500834A60 /* iMessage Extension Single Page VersionTests */ = {
+			isa = PBXGroup;
+			children = (
+				532FC4AB229F383500834A60 /* iMessage_Extension_Single_Page_VersionTests.m */,
+				532FC4AD229F383500834A60 /* Info.plist */,
+			);
+			path = "iMessage Extension Single Page VersionTests";
+			sourceTree = "<group>";
+		};
+		532FC4B5229F383500834A60 /* iMessage Extension Single Page VersionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				532FC4B6229F383500834A60 /* iMessage_Extension_Single_Page_VersionUITests.m */,
+				532FC4B8229F383500834A60 /* Info.plist */,
+			);
+			path = "iMessage Extension Single Page VersionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		532FC48E229F383500834A60 /* iMessage Extension Single Page Version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532FC4BB229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page Version" */;
+			buildPhases = (
+				532FC48B229F383500834A60 /* Sources */,
+				532FC48C229F383500834A60 /* Frameworks */,
+				532FC48D229F383500834A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iMessage Extension Single Page Version";
+			productName = "iMessage Extension Single Page Version";
+			productReference = 532FC48F229F383500834A60 /* iMessage Extension Single Page Version.app */;
+			productType = "com.apple.product-type.application";
+		};
+		532FC4A6229F383500834A60 /* iMessage Extension Single Page VersionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532FC4BE229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page VersionTests" */;
+			buildPhases = (
+				532FC4A3229F383500834A60 /* Sources */,
+				532FC4A4229F383500834A60 /* Frameworks */,
+				532FC4A5229F383500834A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				532FC4A9229F383500834A60 /* PBXTargetDependency */,
+			);
+			name = "iMessage Extension Single Page VersionTests";
+			productName = "iMessage Extension Single Page VersionTests";
+			productReference = 532FC4A7229F383500834A60 /* iMessage Extension Single Page VersionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		532FC4B1229F383500834A60 /* iMessage Extension Single Page VersionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 532FC4C1229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page VersionUITests" */;
+			buildPhases = (
+				532FC4AE229F383500834A60 /* Sources */,
+				532FC4AF229F383500834A60 /* Frameworks */,
+				532FC4B0229F383500834A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				532FC4B4229F383500834A60 /* PBXTargetDependency */,
+			);
+			name = "iMessage Extension Single Page VersionUITests";
+			productName = "iMessage Extension Single Page VersionUITests";
+			productReference = 532FC4B2229F383500834A60 /* iMessage Extension Single Page VersionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		532FC487229F383500834A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bat-Erdene, Ene";
+				TargetAttributes = {
+					532FC48E229F383500834A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					532FC4A6229F383500834A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 532FC48E229F383500834A60;
+					};
+					532FC4B1229F383500834A60 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 532FC48E229F383500834A60;
+					};
+				};
+			};
+			buildConfigurationList = 532FC48A229F383500834A60 /* Build configuration list for PBXProject "iMessage Extension Single Page Version" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 532FC486229F383500834A60;
+			productRefGroup = 532FC490229F383500834A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				532FC48E229F383500834A60 /* iMessage Extension Single Page Version */,
+				532FC4A6229F383500834A60 /* iMessage Extension Single Page VersionTests */,
+				532FC4B1229F383500834A60 /* iMessage Extension Single Page VersionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		532FC48D229F383500834A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532FC4D022A18B9300834A60 /* MainStoryboard.storyboard in Resources */,
+				532FC49F229F383500834A60 /* LaunchScreen.storyboard in Resources */,
+				532FC49C229F383500834A60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4A5229F383500834A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4B0229F383500834A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		532FC48B229F383500834A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532FC4A2229F383500834A60 /* main.m in Sources */,
+				532FC494229F383500834A60 /* AppDelegate.m in Sources */,
+				532FC4C922A07E9B00834A60 /* CollectionViewCell.m in Sources */,
+				532FC4C622A023BE00834A60 /* CollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4A3229F383500834A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532FC4AC229F383500834A60 /* iMessage_Extension_Single_Page_VersionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		532FC4AE229F383500834A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532FC4B7229F383500834A60 /* iMessage_Extension_Single_Page_VersionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		532FC4A9229F383500834A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532FC48E229F383500834A60 /* iMessage Extension Single Page Version */;
+			targetProxy = 532FC4A8229F383500834A60 /* PBXContainerItemProxy */;
+		};
+		532FC4B4229F383500834A60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 532FC48E229F383500834A60 /* iMessage Extension Single Page Version */;
+			targetProxy = 532FC4B3229F383500834A60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		532FC49D229F383500834A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				532FC49E229F383500834A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		532FC4B9229F383500834A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		532FC4BA229F383500834A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		532FC4BC229F383500834A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		532FC4BD229F383500834A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page Version/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-Version";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		532FC4BF229F383500834A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page VersionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMessage Extension Single Page Version.app/iMessage Extension Single Page Version";
+			};
+			name = Debug;
+		};
+		532FC4C0229F383500834A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page VersionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-VersionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iMessage Extension Single Page Version.app/iMessage Extension Single Page Version";
+			};
+			name = Release;
+		};
+		532FC4C2229F383500834A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iMessage Extension Single Page Version";
+			};
+			name = Debug;
+		};
+		532FC4C3229F383500834A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z8VMB73627;
+				INFOPLIST_FILE = "iMessage Extension Single Page VersionUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OliveTree.BibleNavigator.iMessage-Extension-Single-Page-VersionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iMessage Extension Single Page Version";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		532FC48A229F383500834A60 /* Build configuration list for PBXProject "iMessage Extension Single Page Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532FC4B9229F383500834A60 /* Debug */,
+				532FC4BA229F383500834A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532FC4BB229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page Version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532FC4BC229F383500834A60 /* Debug */,
+				532FC4BD229F383500834A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532FC4BE229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page VersionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532FC4BF229F383500834A60 /* Debug */,
+				532FC4C0229F383500834A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		532FC4C1229F383500834A60 /* Build configuration list for PBXNativeTarget "iMessage Extension Single Page VersionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				532FC4C2229F383500834A60 /* Debug */,
+				532FC4C3229F383500834A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 532FC487229F383500834A60 /* Project object */;
+}
