@@ -24,6 +24,8 @@
     return self;
 }
 -(void) prepareForReuse{
+    self.verseImage.image = nil;
+    self.url = nil;
     [super prepareForReuse];
 }
 

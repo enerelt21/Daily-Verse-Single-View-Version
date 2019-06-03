@@ -8,12 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface CollectionViewCell : UICollectionViewCell
 
-@property(strong, nonatomic) IBOutlet UIImageView * verseImage;
+@property(strong, nonatomic) UIImageView * verseImage;
 @property (strong, nonatomic) NSURL *url;
 @end
-
-NS_ASSUME_NONNULL_END
